@@ -13,6 +13,8 @@ bot = telebot.TeleBot(TOKEN)
 
 requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&text={HOSTS}")
 
+# some line
+
 ## Menu Keyboard ##
 menu_keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True,
                                           one_time_keyboard=False)
